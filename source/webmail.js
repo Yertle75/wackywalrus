@@ -18,3 +18,13 @@ var element = document.getElementById("messagelistfooter");
 element.parentNode.removeChild(element);
 var element = document.getElementById("countcontrols");
 element.parentNode.removeChild(element);
+
+// for next version (unsafe)
+var element = document.getElementById("header");
+element.parentNode.removeChild(element);
+var element = document.getElementById("mainscreen");
+element.style.top="20px";
+var element = document.getElementById("mailboxcontainer");
+element.style.top="0px";
+var element = document.getElementById("messagelistcontainer");
+element.style.bottom="0px";
