@@ -9,5 +9,5 @@ element.parentNode.removeChild(element);
 var element = document.getElementsByClassName("navbox");
 element[0].parentNode.removeChild(element[0]);
 var element = document.getElementById("content");
-element.style.padding = "2em"
+element.style.padding = "100px"
 element.style.margin = "0px"
